@@ -9,7 +9,11 @@ import SwiftUI
 
 struct Languages: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("Languages:")
+            .font(.headline)
+        Text("English - Native")
+        Text("Norwegian - Native")
+        Text("German - Beginner (Studied for 3 years at school)")
     }
 }
 

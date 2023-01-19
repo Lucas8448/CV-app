@@ -9,7 +9,18 @@ import SwiftUI
 
 struct Intro: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("Lucas William Bateson")
+            .font(.title)
+        Spacer()
+        Image("Lucas")
+            .resizable()
+            .scaledToFill()
+            .frame(width: 200, height: 200)
+            .clipShape(Circle())
+        Spacer()
+        Text("Summary:")
+            .font(.headline)
+        Text("I am a 16-year-old student studying Information technology and Media production at Fyrstikkallen Vgs in Oslo, Norway. I am a dual British/Norwegian National, although I am born and raised in Oslo.")
     }
 }
 

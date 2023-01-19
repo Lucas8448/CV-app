@@ -9,7 +9,20 @@ import SwiftUI
 
 struct Contact: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("Contact:")
+            .font(.headline)
+        HStack {
+            Text("Address:")
+            Text("Bekkelagsveien 20B Oslo")
+        }
+        HStack {
+            Text("Phone:")
+            Text("+47 934 007 38")
+        }
+        HStack {
+            Text("Email:")
+            Text("lucas.bateson@gmail.com")
+        }
     }
 }
 
